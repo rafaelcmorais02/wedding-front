@@ -1,0 +1,62 @@
+.navbarBody {
+  background-color: #ffb6c1 !important;
+  padding: 0;
+}
+.navbarExternalContent {
+  background: url(./../../../public/images/header.png);
+  background-size: contain;
+  background-repeat: repeat-x;
+  background-origin: content-box;
+  height: 130px;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 !important;
+  background-color: white !important;
+}
+.navbarExternalContentRow {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+.navbarExternalContentColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.navbarRow {
+  display: flex;
+  align-items: center;
+  flex-direction: Row;
+  width: 100%;
+  margin: 0 !important;
+}
+
+.navbarExternalContentTextPosition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbarText {
+  margin: 0;
+  margin-left: 25px;
+}
+
+.navbarIcon {
+  font-size: 25px;
+  color: #ff007f;
+}
+
+.navbarItem {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.navbarButton {
+  margin-right: 20px;
+}
