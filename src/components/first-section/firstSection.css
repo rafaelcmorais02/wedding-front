@@ -1,7 +1,22 @@
 .firstSection {
   background-color: #ecf0f1 !important;
-  height: 400px;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.firstSectionTitle {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.firtSectionSubTitle {
+  font-display: flex;
+  width: 70%;
+  text-align: center;
 }

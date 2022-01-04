@@ -17,7 +17,14 @@ const FirstSection = () => {
     return (
         <>
             <div className='firstSection'>
-                <h5>{days}d:{hours}h:{minuts}m:{seconds}s</h5>
+                <div className='firstSectionTitle'>
+                    <h3>Te esperemos em:</h3>
+                    <h5>{days}d:{hours}h:{minuts}m:{seconds}s</h5>
+                    <h3>Para nosso casamento</h3>
+                    <div className='firtSectionSubTitle'>
+                        <h4>Enquanto isso vamos te contar um pouquinho mais sobre a gente ...</h4>
+                    </div>
+                </div>
             </div>
         </>
     )

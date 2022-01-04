@@ -9,7 +9,7 @@ const Navbar = () => {
                 <div className="navbarExternalContent bg-light p-4">
                     <div className='navbarExternalContentRow'>
                         <div className="navbarExternalContentColumn">
-                            <h5 className="text-black h4">Save <span className='navbarIcon' ><FaRegHeart /></span> Date</h5>
+                            <h5 className="text-black h1">Save <span className='navbarIcon' ><FaRegHeart /></span> Date</h5>
                             <span className="text-muted">02 de Abril de 2022</span>
                         </div>
                     </div>
@@ -24,13 +24,13 @@ const Navbar = () => {
 
                         <ul className="navbarRow navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="navbarItem nav-item">
-                                <a className="nav-link active" aria-current="page" href="navbarRow">Home</a>
+                                <a className="nav-link active" aria-current="page" href="navbarRow">Home |</a>
                             </li>
                             <li className="navbarItem nav-item">
-                                <a className="nav-link" href="teste">Convidados</a>
+                                <a className="nav-link" href="teste">Convidados |</a>
                             </li>
                             <li className="navbarItem nav-item">
-                                <a className="nav-link" href="Presentes">link</a>
+                                <a className="nav-link" href="Presentes">link |</a>
                             </li>
                         </ul>
                     </div>

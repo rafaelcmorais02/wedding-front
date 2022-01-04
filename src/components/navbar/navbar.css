@@ -7,23 +7,25 @@
   background-size: contain;
   background-repeat: repeat-x;
   background-origin: content-box;
-  height: 130px;
+  height: auto;
   display: flex;
   align-items: flex-end;
   padding: 0 !important;
   background-color: white !important;
 }
 .navbarExternalContentRow {
-  margin-left: 12px;
+  margin-bottom: 12px;
+  margin-top: 12px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 100%;
   align-items: center;
 }
 .navbarExternalContentColumn {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 }
 
@@ -48,13 +50,13 @@
 }
 
 .navbarIcon {
-  font-size: 25px;
-  color: #ff007f;
+  font-size: 35px;
+  color: #ffb6c1;
 }
 
 .navbarItem {
   margin-right: 15px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .navbarButton {
