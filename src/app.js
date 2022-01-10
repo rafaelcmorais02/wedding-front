@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from './components/navbar/navbar'
 import FirstSection from './components/first-section/firstSection'
 import Carousel from './components/carousel/carousel'
+import Map from './components/map/map'
+import Video from './components/aboutUs/video'
 
 const App = () => {
 
@@ -10,7 +12,9 @@ const App = () => {
             <div className='container-fluid'>
                 <Navbar />
                 <FirstSection />
-                <Carousel />
+                <Video />
+                <Map />
+                {/* <Carousel /> */}
             </div>
         </>
     )
