@@ -1,0 +1,19 @@
+.guests {
+  background-color: #ffb6c1 !important;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.guestsText {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-display: flex;
+  width: 85%;
+  text-align: center;
+}
+.guestsForm {
+  width: 85%;
+  margin-bottom: 20px;
+}

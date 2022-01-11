@@ -4,7 +4,7 @@ import './navbar.css'
 
 const Navbar = () => {
     return (
-        <>
+        <div className='sticky-top'>
             <div className="collapse show" id="navbarToggleExternalContent">
                 <div className="navbarExternalContent bg-light p-4">
                     <div className='navbarExternalContentRow'>
@@ -24,19 +24,19 @@ const Navbar = () => {
 
                         <ul className="navbarRow navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="navbarItem nav-item">
-                                <a className="nav-link active" aria-current="page" href="navbarRow">Home |</a>
+                                <a className="nav-link" aria-current="page" href="#home">Home |</a>
                             </li>
                             <li className="navbarItem nav-item">
-                                <a className="nav-link" href="teste">Convidados |</a>
+                                <a className="nav-link" href="#guests">Convidados |</a>
                             </li>
                             <li className="navbarItem nav-item">
-                                <a className="nav-link" href="Presentes">link |</a>
+                                <a className="nav-link" href="#gifts">link |</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-        </>
+        </div>
     )
 }
 export default Navbar

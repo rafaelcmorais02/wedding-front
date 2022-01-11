@@ -62,3 +62,14 @@
 .navbarButton {
   margin-right: 20px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+:target:before {
+  content: "";
+  display: block;
+  height: 300px;
+  margin: -300px 0 0;
+}

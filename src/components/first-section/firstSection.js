@@ -15,7 +15,7 @@ const FirstSection = () => {
         }, 1000);
     })
     return (
-        <>
+        <div id='home'>
             <div className='firstSection'>
                 <div className='firstSectionTitle'>
                     <h3>Te esperemos em:</h3>
@@ -27,7 +27,7 @@ const FirstSection = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 export default FirstSection
