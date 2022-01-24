@@ -1,0 +1,13 @@
+.gifts {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.giftsText {
+  margin-top: 20px;
+  font-display: flex;
+  width: 85%;
+  text-align: center;
+}
