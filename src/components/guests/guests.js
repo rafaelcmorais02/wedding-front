@@ -7,7 +7,7 @@ const Guests = () => {
     const handleSend = async () => {
         const name = document.getElementById("nameInput").value
         const phone = document.getElementById("phoneInput").value
-        const regex = /^[(]{0,1}[0-9]{2}[)]{0,1}[-\s\.]{0,1}[0-9]{5}[-\s\.]{0,1}[0-9]{4}$/
+        const regex = /^[(]{0,1}[0-9]{2}[)]{0,1}[-\s.]{0,1}[0-9]{5}[-\s.]{0,1}[0-9]{4}$/
 
         if (regex.test(phone) && name) {
             const confirmed = true
