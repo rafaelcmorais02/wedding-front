@@ -19,7 +19,7 @@ const Guests = () => {
 
             const config = {
                 method: 'post',
-                url: 'https://ec2-52-67-114-101.sa-east-1.compute.amazonaws.com/guests',
+                url: 'https://levemenina.com/guests',
                 headers: {
                     'Content-Type': 'application/json'
                 },
