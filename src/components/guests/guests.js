@@ -19,7 +19,7 @@ const Guests = () => {
 
             const config = {
                 method: 'post',
-                url: 'http://ec2-52-67-114-101.sa-east-1.compute.amazonaws.com/guests',
+                url: 'https://wedding-mongo-app.herokuapp.com/guests',
                 headers: {
                     'Content-Type': 'application/json'
                 },
