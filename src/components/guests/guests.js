@@ -45,7 +45,9 @@ const Guests = () => {
     return (
         <div id='guests' className='guests'>
             <div className='guestsText'>
-                <h3>Venha participar desse momento especial conosco. Apenas pedimos que você confirme sua paresença até o dia 30 de fev de 2022:</h3>
+                <h3>Venha participar desse momento especial conosco!</h3>
+                <h3>Apenas pedimos que você confirme sua paresença até o dia 15 de março de 2022:</h3>
+                <hr />
             </div>
 
             <form className='guestsForm'>
@@ -62,7 +64,6 @@ const Guests = () => {
                 <div className="mb-3">
                 </div>
                 <button type="button" className="btn btn-dark" onClick={handleSend}>Enviar</button>
-
             </form>
         </div>
     )

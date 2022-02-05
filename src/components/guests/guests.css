@@ -1,14 +1,27 @@
 .guests {
-  background-color: #ffb6c1 !important;
+  background-color: #f8c8d7;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+@media screen and (max-width: 768px) {
+  .guests {
+    background: url(./../../../public/images/backgroundGuests3.jpeg);
+    background-size: contain;
+    /* background-repeat: repeat-x; */
+    background-origin: content-box;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 .guestsText {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   font-display: flex;
   width: 85%;
   text-align: center;

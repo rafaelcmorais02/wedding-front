@@ -1,5 +1,7 @@
 .firstSection {
-  background-color: #ecf0f1 !important;
+  background: url(./../../../public/images/backgroundGuests3.jpeg);
+  background-size: contain;
+  /* background-repeat: repeat-x; */
   height: auto;
   display: flex;
   justify-content: center;

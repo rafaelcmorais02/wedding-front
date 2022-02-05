@@ -22,8 +22,8 @@ const FirstSection = () => {
                     <h5>{days}d:{hours}h:{minuts}m:{seconds}s</h5>
                     <h3>Para nosso casamento</h3>
                     <div className='firtSectionSubTitle'>
-                        <br />
-                        <span className="firstSection-text-muted text-muted">Enquanto isso vamos te contar um pouquinho mais sobre a gente ...</span>
+                        {/* <br /> */}
+                        {/* <span className="firstSection-text-muted text-muted">Confira o convite especial que fizemos para você</span> */}
                     </div>
                 </div>
             </div>
