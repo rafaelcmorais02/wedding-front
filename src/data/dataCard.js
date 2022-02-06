@@ -17,7 +17,6 @@ export const dadosCard = [
         descricao: "Acesse o link para ir a a uma loja. Se preferir faça um pix de parte do valor do produto",
         valor: "436.91",
         loja: 'https://www.magazineluiza.com.br/ducha-acqua-duo-ultra-preta-cromada-lorenzetti/p/5810321/cj/duxx/'
-
     },
     {
         id: 1,

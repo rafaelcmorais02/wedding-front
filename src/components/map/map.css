@@ -1,5 +1,5 @@
 .map {
-  height: 30rem;
+  height: 35rem;
 }
 .map iframe {
   pointer-events: none;
@@ -12,4 +12,9 @@
   .map {
     height: 75%;
   }
+}
+
+.mapText {
+  display: flex;
+  justify-content: center;
 }

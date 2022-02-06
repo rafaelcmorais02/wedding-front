@@ -46,13 +46,11 @@ const Guests = () => {
         <div id='guests' className='guests'>
             <div className='guestsText'>
                 <h5>Venha participar desse momento especial conosco!</h5>
-                <h5>Apenas pedimos que você confirme sua presença até o dia <spam class='guestsSpam'>15 de Março de 2022</spam>:</h5>
+                <h5>Apenas pedimos que você confirme sua presença até o dia <spam class='guestsSpam'>15 de Março de 2022</spam>, informando:</h5>
                 <hr />
             </div>
 
             <form className='guestsForm'>
-
-                <legend>Lista de presença:</legend>
                 <div className="mb-3">
                     <label for="phonelInput" className="form-label">Telefone</label>
                     <InputMask mask='(99) 99999-9999' type="text" id="phoneInput" className="form-control" placeholder="Digite seu telefone" />
@@ -63,7 +61,7 @@ const Guests = () => {
                 </div>
                 <div className="mb-3">
                 </div>
-                <button type="button" className="btn btn-dark" onClick={handleSend}>Enviar</button>
+                <button type="button" className="btn btn-dark" onClick={handleSend}>Confirmar</button>
             </form>
         </div>
     )

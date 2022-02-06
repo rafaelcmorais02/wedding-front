@@ -16,7 +16,7 @@ function Card(props) {
                     <p className="card-text descricao-card">{descricao}</p>
                     <div className="row2">
                         <div className="column2">
-                            <button className="btn btn-secondary" onClick={handleFlag} data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ "backgroundColor": "#212529" }}>Visite</button>
+                            <button className="btn btn-secondary" onClick={handleFlag} data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ "backgroundColor": "#212529" }}>Presentear</button>
                         </div>
                         <div className="column3">R$ {valor}</div>
                     </div>

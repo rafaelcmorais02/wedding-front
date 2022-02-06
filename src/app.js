@@ -6,6 +6,7 @@ import Video from './components/aboutUs/video'
 import Guests from './components/guests/guests'
 import Carousel from './components/carousel/carousel'
 import Gifts from './components/gifts/gifts'
+import Footer from './components/footer/footer'
 import { dadosCard } from "./data/dataCard"
 const App = () => {
     const [id, setId] = useState(0)
@@ -25,15 +26,19 @@ const App = () => {
                             <spam className='modalSpam'>Pix: 14400760650 (CPF)</spam>
                         </div>
                         <div className="modal-body">
-                            Mas se preferir aqui está o link de uma loja sugerida por nós:
-                            <br />
-                            <br />
-                            <a href={dadosCard[id].loja}>
-                                <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Loja</button>
+                            Ou compre o item direto da loja, clicando  <a href={dadosCard[id].loja}>
+                                aqui
                             </a>
+                            <br />
+                            <br />
+                            <div className='modalThanks'>
+                                Nossos sinceros agradecimentos!!
+                            </div>
                         </div>
                         <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Obrigado</button>
+                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Reservar Item</button>
+                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+
                         </div>
                     </div>
                 </div>
@@ -46,6 +51,7 @@ const App = () => {
                 <Gifts />
                 <Carousel setId={setId} />
                 <Map />
+                <Footer />
             </div>
         </>
     )
