@@ -25,10 +25,10 @@ const Navbar = () => {
 
                         <ul className="navbarRow navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="navbarItem nav-item">
-                                <a className="nav-link" aria-current="page" href="#home">Home|</a>
+                                <a className="nav-link" aria-current="page" href="#home">Home</a>
                             </li>
                             <li className="navbarItem nav-item">
-                                <a className="nav-link" href="#guests">Confirmar|</a>
+                                <a className="nav-link" href="#guests">Confirmar</a>
                             </li>
                             <li className="navbarItem nav-item">
                                 <a className="nav-link" href="#gifts">Presentes</a>
