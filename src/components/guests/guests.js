@@ -45,8 +45,8 @@ const Guests = () => {
     return (
         <div id='guests' className='guests'>
             <div className='guestsText'>
-                <h3>Venha participar desse momento especial conosco!</h3>
-                <h3>Apenas pedimos que você confirme sua paresença até o dia 15 de março de 2022:</h3>
+                <h5>Venha participar desse momento especial conosco!</h5>
+                <h5>Apenas pedimos que você confirme sua presença até o dia <spam class='guestsSpam'>15 de Março de 2022</spam>:</h5>
                 <hr />
             </div>
 

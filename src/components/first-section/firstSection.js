@@ -18,9 +18,9 @@ const FirstSection = () => {
         <div id='home'>
             <div className='firstSection'>
                 <div className='firstSectionTitle'>
-                    <h3>Te esperemos em:</h3>
+                    <h4>Te esperamos em:</h4>
                     <h5>{days}d:{hours}h:{minuts}m:{seconds}s</h5>
-                    <h3>Para nosso casamento</h3>
+                    <h4>Para nosso casamento</h4>
                     <div className='firtSectionSubTitle'>
                         {/* <br /> */}
                         {/* <span className="firstSection-text-muted text-muted">Confira o convite especial que fizemos para você</span> */}

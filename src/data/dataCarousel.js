@@ -5,7 +5,7 @@ let i = 0
 let obj = {}
 let caouselData = []
 const formatCarousel = () => {
-    let id = [], imag = [], titulo = [], descricao = []
+    let id = [], imag = [], titulo = [], descricao = [], valor = []
     for (const item of dadosCard) {
         console.log("passou aqui")
         i = i + 1
@@ -13,6 +13,7 @@ const formatCarousel = () => {
         imag.push(item.imag)
         titulo.push(item.titulo)
         descricao.push(item.descricao)
+        valor.push(item.valor)
         if (i === 3) {
             if (count === 0) {
                 obj = {
@@ -35,7 +36,8 @@ const formatCarousel = () => {
                     id: id,
                     imag: imag,
                     titulo: titulo,
-                    descricao: descricao
+                    descricao: descricao,
+                    valor: valor
                 }
             })
             count = count + 1
@@ -44,6 +46,7 @@ const formatCarousel = () => {
             imag = []
             titulo = []
             descricao = []
+            valor = []
         }
     }
     return caouselData

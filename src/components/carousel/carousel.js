@@ -8,7 +8,6 @@ let phoneFlag = false
 const numbCarousel = formatCarousel()
 
 const Carousel = (props) => {
-    const setFlag = (flag) => props.setFlag(flag)
     const setId = (id) => props.setId(id)
 
     function getWindowDimensions() {
@@ -55,9 +54,9 @@ const Carousel = (props) => {
                             return (
                                 <div key={item.id} className={item.className}>
                                     <section key={item.id} className="row">
-                                        <Card id={item.dados.id[0]} title={item.dados.titulo[0]} descricao={item.dados.descricao[0]} image={item.dados.imag[0]} setFlag={setFlag} setId={setId} />
-                                        <Card id={item.dados.id[1]} title={item.dados.titulo[1]} descricao={item.dados.descricao[1]} image={item.dados.imag[1]} setFlag={setFlag} setId={setId} />
-                                        <Card id={item.dados.id[2]} title={item.dados.titulo[2]} descricao={item.dados.descricao[2]} image={item.dados.imag[2]} setFlag={setFlag} setId={setId} />
+                                        <Card id={item.dados.id[0]} title={item.dados.titulo[0]} descricao={item.dados.descricao[0]} image={item.dados.imag[0]} valor={item.dados.valor[0]} setId={setId} />
+                                        <Card id={item.dados.id[1]} title={item.dados.titulo[1]} descricao={item.dados.descricao[1]} image={item.dados.imag[1]} valor={item.dados.valor[1]} setId={setId} />
+                                        <Card id={item.dados.id[2]} title={item.dados.titulo[2]} descricao={item.dados.descricao[2]} image={item.dados.imag[2]} valor={item.dados.valor[2]} setId={setId} />
                                     </section>
                                 </div>
                             )
@@ -98,7 +97,7 @@ const Carousel = (props) => {
                             return (
                                 <div key={item.id} className={item.className}>
                                     <section key={item.id} className="row">
-                                        <Card id={item.id} title={item.titulo} descricao={item.descricao} image={item.imag} setFlag={setFlag} setId={setId} />
+                                        <Card id={item.id} title={item.titulo} descricao={item.descricao} image={item.imag} valor={item.valor} setId={setId} />
                                     </section>
                                 </div>
                             )

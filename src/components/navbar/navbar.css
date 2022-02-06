@@ -23,6 +23,7 @@
   align-items: center;
 }
 .navbarExternalContentColumn {
+  font-family: "Parisienne", cursive;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +57,7 @@
 
 .navbarItem {
   margin-right: 15px;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .navbarButton {

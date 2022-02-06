@@ -1,11 +1,9 @@
 import React from "react"
 function Card(props) {
-    const { title, descricao, image, id } = props
-    const setFlag = (flag) => props.setFlag(flag)
+    const { title, descricao, image, valor, id } = props
     const setId = (primary) => props.setId(primary)
 
     const handleFlag = () => {
-        setFlag(prev => !prev)
         setId(id)
     }
 
@@ -18,9 +16,9 @@ function Card(props) {
                     <p className="card-text descricao-card">{descricao}</p>
                     <div className="row2">
                         <div className="column2">
-                            <button className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick={handleFlag} style={{ "backgroundColor": "#212529" }}>Presentear</button>
+                            <button className="btn btn-secondary" onClick={handleFlag} data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ "backgroundColor": "#212529" }}>Visite</button>
                         </div>
-                        <div className="column3">R$ 49,90</div>
+                        <div className="column3">R$ {valor}</div>
                     </div>
                 </div>
             </div>

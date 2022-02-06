@@ -1,4 +1,4 @@
-import imag1 from "../images/imag01.jpeg"
+import imag1 from "../images/imag01.jpg"
 import imag2 from "../images/imag02.jpeg"
 import imag3 from "../images/imag03.jpeg"
 import imag4 from "../images/imag04.jpeg"
@@ -13,8 +13,11 @@ export const dadosCard = [
         current: "true",
         label: "Slide 1",
         imag: imag1,
-        titulo: "Conjunto Linda - P",
-        descricao: "Preto, detalhes em renda, sutiã com bojo e alcinha ajustável. Modela muito bem seu corpo"
+        titulo: "Chuveiro Ducha",
+        descricao: "Acesse o link para ir a a uma loja. Se preferir faça um pix de parte do valor do produto",
+        valor: "436.91",
+        loja: 'https://www.magazineluiza.com.br/ducha-acqua-duo-ultra-preta-cromada-lorenzetti/p/5810321/cj/duxx/'
+
     },
     {
         id: 1,

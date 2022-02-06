@@ -1,5 +1,9 @@
 body {
-  font-family: "Parisienne", cursive;
+  /* font-family: "Parisienne", cursive; */
+  font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0;
+}
+.modalSpam {
+  font-weight: bold;
 }
