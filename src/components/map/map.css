@@ -1,5 +1,6 @@
 .map {
   height: 35rem;
+  display: flex;
 }
 .map iframe {
   pointer-events: none;

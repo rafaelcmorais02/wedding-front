@@ -9,7 +9,7 @@ const Navbar = () => {
                 <div className="navbarExternalContent bg-light p-4">
                     <div className='navbarExternalContentRow'>
                         <div className="navbarExternalContentColumn">
-                            <h5 className="text-black h1">Save the Date</h5>
+                            <h2 className="text-black h1">Save the Date</h2>
                             <h3>Emillie <span className='navbarIcon' ><FaRegHeart /></span> Rafael</h3>
                             <span className="text-muted">02 de Abril de 2022</span>
                         </div>
