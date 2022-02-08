@@ -9,9 +9,9 @@ const Navbar = () => {
                 <div className="navbarExternalContent bg-light p-4">
                     <div className='navbarExternalContentRow'>
                         <div className="navbarExternalContentColumn">
-                            <h2 className="text-black h1">Save the Date</h2>
-                            <h3>Emillie <span className='navbarIcon' ><FaRegHeart /></span> Rafael</h3>
-                            <span className="text-muted">02 de Abril de 2022</span>
+                            <h2 style={{ 'fontSize': '45px' }} className="text-black h1">Save the Date</h2>
+                            <h3 style={{ 'fontSize': '30px' }}>Emillie <span className='navbarIcon' ><FaRegHeart /></span> Rafael</h3>
+                            <span style={{ 'fontSize': '20px' }} className="text-muted">02 de Abril de 2022</span>
                         </div>
                     </div>
                 </div>
