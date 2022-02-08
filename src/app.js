@@ -18,6 +18,30 @@ import imag6 from "./images/imag06.jpeg"
 
 
 const App = () => {
+    const handleReservarItem = async () => {
+        const data = JSON.stringify({
+            "status": false
+        });
+
+        const config = {
+            method: 'patch',
+            url: `https://levemenina.com/gifts/${dadosCard[id].pk}`,
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            data: data
+        };
+
+        await axios(config)
+            .then(function (response) {
+                window.alert("Obrigado pelo presente! Ass: Emillie e Rafael")
+                window.location.reload();
+            })
+            .catch(function (error) {
+                console.log(error);
+                window.alert("Erro no registro do presente")
+            });
+    }
     const [id, setId] = useState(0)
     const [dadosCard, setDadosCard] = useState([])
     useEffect(() => {
@@ -31,41 +55,46 @@ const App = () => {
         }
         const cardData = []
         const gifts = async () => {
-            const response = await axios.get('http://localhost:5000/gifts')
+            const response = await axios.get('https://levemenina.com/gifts')
             let i = 0
             for (const item of response.data.body.gifts) {
-                if (i === 0) {
-                    cardData.push({
-                        id: i,
-                        className: "carousel-item active",
-                        secClassName: "active",
-                        current: "true",
-                        label: "Slide " + (i + 1),
-                        imag: imagObj[item.imag],
-                        titulo: item.titulo,
-                        descricao: item.descricao,
-                        valor: item.valor,
-                        loja: item.loja,
-                    })
-                } else {
-                    cardData.push({
-                        id: i,
-                        className: "carousel-item",
-                        label: "Slide " + (i + 1),
-                        titulo: item.titulo,
-                        imag: imagObj[item.imag],
-                        descricao: item.descricao,
-                        valor: item.valor,
-                        loja: item.loja,
-                    })
+                if (item.status === true) {
+                    if (i === 0) {
+                        cardData.push({
+                            pk: item['_id'],
+                            id: i,
+                            className: "carousel-item active",
+                            secClassName: "active",
+                            current: "true",
+                            label: "Slide " + (i + 1),
+                            imag: imagObj[item.imag],
+                            titulo: item.titulo,
+                            descricao: item.descricao,
+                            valor: item.valor,
+                            loja: item.loja,
+                        })
+                    } else {
+                        cardData.push({
+                            pk: item['_id'],
+                            id: i,
+                            className: "carousel-item",
+                            label: "Slide " + (i + 1),
+                            titulo: item.titulo,
+                            imag: imagObj[item.imag],
+                            descricao: item.descricao,
+                            valor: item.valor,
+                            loja: item.loja,
+                        })
+                    }
+                    i++
                 }
-                i++
             }
             setDadosCard(cardData)
             console.log(cardData)
         }
         gifts()
     }, [])
+
     return (
         <>
             <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -87,11 +116,11 @@ const App = () => {
                             <br />
                             <br />
                             <div className='modalThanks'>
-                                Nossos sinceros agradecimentos!!
+                                Nossos sinceros agradecimentos!
                             </div>
                         </div>
                         <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Reservar Item</button>
+                            <button type="button" className="btn btn-secondary" data-bs-dismiss="modal" onClick={handleReservarItem}>Reservar Item</button>
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
 
                         </div>
