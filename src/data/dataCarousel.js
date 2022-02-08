@@ -1,10 +1,8 @@
-import { dadosCard } from "./dataCard"
-
-let count = 0
-let i = 0
-let obj = {}
-let caouselData = []
-const formatCarousel = () => {
+const formatCarousel = (dadosCard) => {
+    let caouselData = []
+    let count = 0
+    let i = 0
+    let obj = {}
     let id = [], imag = [], titulo = [], descricao = [], valor = []
     for (const item of dadosCard) {
         console.log("passou aqui")

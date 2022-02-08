@@ -1,15 +1,14 @@
 import Card from "../card/cardItem"
 import React, { useState, useEffect } from 'react';
-import { dadosCard } from "../../data/dataCard"
 import formatCarousel from "../../data/dataCarousel"
 import "./carousel.css"
 
 let phoneFlag = false
-const numbCarousel = formatCarousel()
 
 const Carousel = (props) => {
     const setId = (id) => props.setId(id)
-
+    const dadosCard = props.dadosCard
+    const numbCarousel = formatCarousel(dadosCard)
     function getWindowDimensions() {
         const { innerWidth: width, innerHeight: height } = window;
         return {
