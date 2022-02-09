@@ -68,7 +68,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 500px;
+  height: 490px;
 }
 
 .modalBackground {
@@ -104,7 +104,7 @@ body {
 }
 
 .descricao-card {
-  height: 80px;
+  height: 70px;
   font-weight: 400;
   color: #0000008c;
 }

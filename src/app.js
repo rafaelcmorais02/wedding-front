@@ -8,14 +8,18 @@ import Guests from './components/guests/guests'
 import Carousel from './components/carousel/carousel'
 import Gifts from './components/gifts/gifts'
 import Footer from './components/footer/footer'
-import imag1 from "./images/imag01.jpg"
+import imag1 from "./images/imag01.jpeg"
 import imag2 from "./images/imag02.jpeg"
-import imag3 from "./images/imag03.jpeg"
-import imag4 from "./images/imag04.jpeg"
-import imag5 from "./images/imag05.jpeg"
+import imag3 from "./images/imag03.jpg"
+import imag4 from "./images/imag04.jpg"
+import imag5 from "./images/imag05.jpg"
 import imag6 from "./images/imag06.jpeg"
-
-
+import imag7 from "./images/imag07.jpg"
+import imag8 from "./images/imag08.jpg"
+import imag9 from "./images/imag09.jpg"
+import imag10 from "./images/imag10.jpeg"
+import imag11 from "./images/imag11.jpeg"
+import imag12 from "./images/imag12.jpg"
 
 const App = () => {
     const handleReservarItem = async () => {
@@ -52,6 +56,12 @@ const App = () => {
             imag4,
             imag5,
             imag6,
+            imag7,
+            imag8,
+            imag9,
+            imag10,
+            imag11,
+            imag12
         }
         const cardData = []
         const gifts = async () => {
