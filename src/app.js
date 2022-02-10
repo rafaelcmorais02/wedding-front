@@ -117,7 +117,7 @@ const App = () => {
                         <div className="modal-body">
                             Caso você prefira um pix, aqui está a nossa chave
                             <br />
-                            <spam className='modalSpam'>Pix: 14400760650 (CPF)</spam>
+                            <span className='modalSpan'>Pix: 14400760650 (CPF)</span>
                         </div>
                         <div className="modal-body">
                             Ou compre o item direto da loja, clicando  <a href={(dadosCard[id] || '').loja}>

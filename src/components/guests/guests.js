@@ -46,17 +46,17 @@ const Guests = () => {
         <div id='guests' className='guests'>
             <div className='guestsText'>
                 <h5>Venha participar desse momento especial conosco!</h5>
-                <h5>Apenas pedimos que você confirme sua presença até o dia <spam class='guestsSpam'>15 de Março de 2022</spam>, informando:</h5>
+                <h5>Apenas pedimos que você confirme sua presença até o dia <span className='guestsSpan'>10 de Março de 2022</span>, informando:</h5>
                 <hr />
             </div>
 
             <form className='guestsForm'>
                 <div className="mb-3">
-                    <label for="phonelInput" className="form-label">Telefone</label>
+                    <label htmlFor="phonelInput" className="form-label">Telefone</label>
                     <InputMask mask='(99) 99999-9999' type="text" id="phoneInput" className="form-control" placeholder="Digite seu telefone" />
                 </div>
                 <div className="mb-3">
-                    <label for="nameInput" className="form-label">Nome Completo</label>
+                    <label htmlFor="nameInput" className="form-label">Nome Completo</label>
                     <input type="text" id="nameInput" className="form-control" placeholder="Digite seu nome completo" />
                 </div>
                 <div className="mb-3">
