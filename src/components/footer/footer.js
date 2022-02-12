@@ -13,7 +13,7 @@ const footer = () => {
 
                     <a className="btn btn-outline-light btn-floating m-1" href="https://wa.me/+5537991092653?text=Quero%20saber%20mais%20sobre%20seu%20casamento" target="_blank" rel="noreferrer" role="button" style={{ "borderColor": "black", "color": "black" }}> <FontAwesomeIcon icon={faWhatsapp} /></a>
 
-                    <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/invites/contact/?i=10syysma27shm&utm_content=mty7qh5" target="_blank" rel="noreferrer" role="button" style={{ "borderColor": "black", "color": "black" }}><FontAwesomeIcon icon={faInstagram} /></a>
+                    <a className="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/invites/contact/?i=11cvb561ef1c3&utm_content=q9auo0" target="_blank" rel="noreferrer" role="button" style={{ "borderColor": "black", "color": "black" }}><FontAwesomeIcon icon={faInstagram} /></a>
                 </section>
             </div>
 

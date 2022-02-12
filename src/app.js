@@ -7,6 +7,7 @@ import Video from './components/aboutUs/video'
 import Guests from './components/guests/guests'
 import Carousel from './components/carousel/carousel'
 import Gifts from './components/gifts/gifts'
+import Local from './components/local/local'
 import Footer from './components/footer/footer'
 import imag1 from "./images/imag01.jpeg"
 import imag2 from "./images/imag02.jpeg"
@@ -19,7 +20,13 @@ import imag8 from "./images/imag08.jpg"
 import imag9 from "./images/imag09.jpg"
 import imag10 from "./images/imag10.jpeg"
 import imag11 from "./images/imag11.jpeg"
-import imag12 from "./images/imag12.jpg"
+import imag12 from "./images/imag12.jpeg"
+import imag13 from "./images/imag13.jpg"
+import imag14 from "./images/imag14.jpg"
+import imag15 from "./images/imag15.jpeg"
+import imag16 from "./images/imag16.jpg"
+import imag17 from "./images/imag17.jpg"
+import imag18 from "./images/imag18.jpeg"
 
 const App = () => {
     const handleReservarItem = async () => {
@@ -61,7 +68,13 @@ const App = () => {
             imag9,
             imag10,
             imag11,
-            imag12
+            imag12,
+            imag13,
+            imag14,
+            imag15,
+            imag16,
+            imag17,
+            imag18,
         }
         const cardData = []
         const gifts = async () => {
@@ -144,6 +157,7 @@ const App = () => {
                 <Guests />
                 <Gifts />
                 <Carousel setId={setId} dadosCard={dadosCard} />
+                <Local />
                 <Map />
                 <Footer />
             </div>

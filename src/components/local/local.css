@@ -1,0 +1,6 @@
+.localText {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 20px;
+}
