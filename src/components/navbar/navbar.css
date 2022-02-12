@@ -33,6 +33,7 @@
 .navbarRow {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: Row;
   width: 100%;
   margin: 0 !important;

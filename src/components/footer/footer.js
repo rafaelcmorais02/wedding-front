@@ -18,7 +18,7 @@ const footer = () => {
             </div>
 
             <div className="text-center p-3" style={{ "backgroundColor": "#ffb6c1", "color": "black" }}>
-                © 2022 Copyright
+                © 2022 Copyright: emillieerafael.com
             </div>
         </footer>
     )
