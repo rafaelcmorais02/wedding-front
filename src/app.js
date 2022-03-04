@@ -27,6 +27,12 @@ import imag15 from "./images/imag15.jpeg"
 import imag16 from "./images/imag16.jpg"
 import imag17 from "./images/imag17.jpg"
 import imag18 from "./images/imag18.jpeg"
+import imag19 from "./images/imag19.jpg"
+import imag20 from "./images/imag20.jpg"
+import imag21 from "./images/imag21.jpeg"
+import imag22 from "./images/imag22.jpg"
+
+
 
 const App = () => {
     const handleReservarItem = async () => {
@@ -75,6 +81,10 @@ const App = () => {
             imag16,
             imag17,
             imag18,
+            imag19,
+            imag20,
+            imag21,
+            imag22
         }
         const cardData = []
         const gifts = async () => {
